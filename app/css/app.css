@@ -1,0 +1,175 @@
+* {
+  outline:none !important
+}
+
+html,body {
+  width:100%;
+  height:100%
+}
+
+body {
+  padding:3em 15px;
+  background-color:#EB509C;
+  display:table;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: #CE361D;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CE361D;
+  text-decoration: underline;
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.15;
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-weight: 100;
+}
+
+h2 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 1.2;
+  margin: 0;
+  font-weight: 100;
+}
+
+p.tagline {
+  color: #fff;
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+p.error {
+  margin: 25px 0;
+  color: #f7f7f7;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.wrapper {
+  display:table-cell;
+  vertical-align:middle;
+  text-align: center;
+}
+
+.phone {
+  display: inline-block;
+  margin-right: 30px;
+  max-width: 100%;
+}
+
+.bottom-bar p {
+  bottom: 20px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+}
+
+.bottom-bar p a {
+  color:#fff;
+  text-decoration:underline;
+}
+
+form {
+  width: 450px;
+  min-height: 256px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  text-align: left;
+  position: relative;
+}
+
+form .form-control {
+  height:60px;
+  padding:18px;
+  background-color:#fff;
+  border: 0;
+  box-shadow: none;
+  border-radius: 6px 6px 0 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+form .form-control:focus {
+  box-shadow: none;
+}
+
+form input[type="submit"] {
+  display:block;
+  width:100%;
+  font-size:16px;
+  letter-spacing:.2em;
+  padding: 12px 0 14px;
+  border:0;
+  background-color:#BF2B73;
+  color:#fff;
+  font-weight:500;
+  border-radius: 0 0 6px 6px;
+  -webkit-transition:all .4s;
+  -moz-transition:all .4s;
+  transition:all .4s
+}
+
+form input[type="submit"]:hover {
+  color: #000;
+}
+
+.btn[disabled] {
+  background-color: rgba(0,0,0,.4);
+  color: rgba(255,255,255,.3);
+}
+
+form .form-group.submit input[type="submit"].disabled {
+  background-color:#999
+}
+
+.result-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 15px;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+  }
+  p.tagline {
+    font-size: 25px;
+  }
+  .phone {
+    margin-right: 0;
+    width: 50%;
+  }
+  .bottom-bar p {
+    bottom: 5px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+  }
+  form {
+    width: 100%;
+  }
+}
