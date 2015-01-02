@@ -158,7 +158,10 @@ form .form-group.submit input[type="submit"].disabled {
     margin-right: 0;
     width: 50%;
   }
-  .bottom-bar p {
+  .bottom-bar {
+    display:none;
+  }
+  /*.bottom-bar p {
     bottom: 5px;
     left: 0;
     position: fixed;
@@ -168,7 +171,7 @@ form .form-group.submit input[type="submit"].disabled {
     color: #fff;
     font-weight: 300;
     font-family: 'Lato', sans-serif;
-  }
+  }*/
   form {
     width: 100%;
   }
