@@ -1,7 +1,7 @@
 {
-  "name": "colormymusic",
+  "name": "kywrd",
   "version": "0.0.0",
-  "description": "colormymusic",
+  "description": "kywrd",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.3.1",
@@ -17,17 +17,18 @@
   },
   "scripts": {
     "prestart": "npm install",
-    "start": "http-server/bin/http-server",
+    "start": "http-server",
     "pretest": "npm install",
     "test": "karma start test/karma.conf.js",
     "test-single-run": "karma start test/karma.conf.js  --single-run",
+    "postinstall": "bower install",
     "preupdate-webdriver": "npm install",
     "update-webdriver": "webdriver-manager update",
     "preprotractor": "npm run update-webdriver",
     "protractor": "protractor test/protractor-conf.js",
     "update-index-async": "node -e \"require('shelljs/global'); sed('-i', /\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/, '//@@NG_LOADER_START@@\\n' + cat('app/bower_components/angular-loader/angular-loader.min.js') + '\\n//@@NG_LOADER_END@@', 'app/index-async.html');\""
   },
-  "subdomain": "colormymusic",
+  "subdomain": "kywrd",
   "engines": {
     "node": "0.10.x"
   },
@@ -38,6 +39,7 @@
     "ecstatic": "~0.5.6",
     "portfinder": "0.2.x",
     "opener": "~1.4.0",
-    "http-server": "0.7.x"
+    "http-server": "0.7.x",
+    "bower": "^1.3.1"
   }
 }
