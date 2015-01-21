@@ -130,6 +130,11 @@ form input[type="submit"]:hover {
   color: #000;
 }
 
+input:focus {
+    background-color: #FAFFBD;
+    color:#000;
+}
+
 .btn[disabled] {
   background-color: rgba(0,0,0,.4);
   color: rgba(255,255,255,.3);
