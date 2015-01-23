@@ -1,3 +1,9 @@
+# Temp
+.tmp
+
+# Test
+test
+
 # Logs
 logs
 *.log
