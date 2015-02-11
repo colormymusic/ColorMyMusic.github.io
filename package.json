@@ -36,7 +36,7 @@
     "serve-index": "^1.6.1",
     "serve-static": "^1.8.1",
     "time-grunt": "^1.0.0",
-    "type-is": "^1.5.6"
+    "type-is": "^1.5.7"
   },
   "engines": {
     "node": ">=0.10.0"
