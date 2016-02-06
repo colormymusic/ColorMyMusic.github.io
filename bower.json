@@ -4,20 +4,20 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "modernizr": "x.x.x",
-    "bootstrap": "x.x.x",
-    "font-awesome": "x.x.x",
-    "animate.css": "x.x.x",
-    "angular": "1.2.x",
-    "angular-route": "1.2.x",
-    "angular-loader": "1.2.x",
-    "angular-cookies": "1.2.x",
-    "angular-animate": "1.2.x",
-    "angular-resource": "1.2.x",
-    "angular-sanitize": "1.2.x"
+    "font-awesome": "4.5.0",
+    "animate.css": "3.5.1",
+    "angular": "1.4.5",
+    "angular-route": "1.4.5",
+    "angular-loader": "1.4.5",
+    "angular-cookies": "1.4.5",
+    "angular-animate": "1.4.5",
+    "angular-resource": "1.4.5",
+    "angular-sanitize": "1.4.5",
+    "bootstrap-css": "^3.3.6",
+    "jquery": "^2.2.0"
   },
   "devDependencies": {
-    "angular-mocks": "1.2.x",
-    "angular-route": "1.2.x"
+    "angular-mocks": "1.4.5",
+    "angular-route": "1.4.5"
   }
 }
